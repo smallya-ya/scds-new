@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/scds-new?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
+    password: 123456
+
+
+
+lostFrontEndHeartBeatLimit: 60
+serverUrl: http://47.105.46.189:12000
+kafkaServer: 47.105.46.189:9092,47.105.46.189:9093,47.105.46.189:9094
+singleMode: 1

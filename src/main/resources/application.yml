@@ -1,0 +1,17 @@
+server:
+  port: 11000
+
+spring:
+  application:
+    name: soldier-confrontation-drill-system
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization:
+      write-dates-as-timestamps: false
+  profiles:
+    active: aliyun
